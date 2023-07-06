@@ -1,0 +1,91 @@
+<html>
+	<head>
+		<title>Registration</title>
+			<style>
+			</style>
+			<script language="javascript">
+				function validate()
+				{	
+					if(document.myForm.FName.value=="")
+					{
+						alert("Please enter your first name !");
+						document.myForm.FName.focus();
+						return false;
+					}
+
+					if(document.myForm.LName.value=="")
+					{
+						alert("Please enter your last name !");
+						document.myForm.LName.focus();
+						return false;
+					}
+
+					if(document.myForm.Gender.value=="")
+					{
+						alert("Please choose your Gender !");
+						document.myForm.Gender.focus();
+						return false;
+					}
+
+					if(document.myForm.Address.value=="")
+					{
+						alert("Please enter your Address !");
+						document.	myForm.Address.focus();
+						return false;
+					}
+
+					if(document.myForm.Email.value=="")
+					{
+						alert("Please enter your Email !");
+						document.myForm.Email.focus();
+						return false;
+					}
+
+					if(document.myForm.Contact.value=="")
+					{
+						alert("Please enter your Contact No !");
+						document.myForm.Contact.focus();
+						return false;
+					}
+					if(document.myForm.age.value=="")
+					{
+						alert("Please enter your Age !");
+						document.myForm.age.focus();
+						return false;
+					}
+					return(true);
+					}
+				}
+			</script>
+<link rel="stylesheet" href="D:\Harshil_IT\Fitness Zone WEB\Css-Code.css">
+	</head>
+	<body>
+		<header style="background-color:#db8557; ">
+			<table>
+				<tr>
+					<th><img src="C:\Users\Harshil Dhami\Downloads\fitness.png" width="105px" class="padd"></th>
+					<th> <pre style="font-family:Lucida Calligraphy; font-size:30px; font-color:#231f20; cursor:pointer;">Registration</pre> </th>
+					<th style="padding-left:820px;"><a href="D:\Harshil_IT\Fitness Zone.html"><input type ="submit" value="Home" name="Home"></a></th>
+					<th><a href="D:\Harshil_IT\Fitness Zone WEB\Registration.html"><input type ="submit" value="Registration" name="Registrations"></a></th>
+					<th><a href="D:\Harshil_IT\Fitness Zone WEB\Contect.html"><input type ="submit" value="Contact Us" name="Contact Us"></a></th>
+					<th><a href="D:\Harshil_IT\Fitness Zone WEB\Feedback.html"><input type ="submit" value="Feedback" name="Feedback"></a></th>
+				</tr>
+			</table>
+		</header>
+	<form style="margin:50px;" name="myForm" onsubmit="return(validate());" method="post" >
+		<center>
+			<table style="background-color:rgba(233, 179, 150,0.5); border-radius:15px; padding :15px 35px; border:solid #b15625 6px;" >
+				<tr><th><h3 style="padding-left:10px; padding-top:10px;">GYM Registration Form</h3></th></tr>
+				<tr><td><input type="text" name="FName" placeholder="Enter your First Name..."></td></tr>
+				<tr><td><input type="text" name="LName" placeholder="Enter your Last Name..."></td></tr>
+				<tr style="font-size:13px;"><td><pre style="font-family:vendata; font-size:15px;">   Gender:<input type="radio" name="Gender" value="male">Male <b>|</b></input><input type="radio" name="Gender" value="female">Female</input><pre></td></tr>
+				<tr><td><input type ="text" name="age" placeholder="Enter your current Age..."></td><tr>
+				<tr><td><textarea name="Address" placeholder="Enter your Address..."></textarea></td></tr>
+				<tr><td><input type="text" name="Email" placeholder="Enter your Email..."></td></tr>
+				<tr><td><input type="text" name="Contact" placeholder="Enter your Contact Number..."></td></tr>
+				<tr><td><center><input type="submit" ></center></td></tr>
+			</table>
+		</center>
+	</form>
+	</body>
+</html>

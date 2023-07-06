@@ -1,0 +1,60 @@
+<style>
+
+	.padd{
+			padding-top:15px;
+			padding-right:15px;
+			padding-left:15px;
+		 }
+	textarea ,select{
+			border:none;
+			background-color:rgba(177, 86, 37, 0.0);
+			border-left: 2px solid #231f20;
+			border-bottom: 2px solid #231f20;
+			margin:10px;
+		}
+
+	a:link {
+  			color: #231f20;
+  			background-color: transparent;
+ 			text-decoration: none;
+		}
+
+	/*a:hover {
+			color:#db8557;
+		 	background-color:#231f20;
+  			text-decoration:none;
+			padding:10px;
+			border-radius:15px;
+		}*/
+
+	input[type=text]{
+			border:none;
+			background-color:rgba(177, 86, 37, 0.0);
+			border-left: 2px solid #231f20;
+			border-bottom: 2px solid #231f20;
+			margin:10px;
+		}
+	input[type=submit]{
+			padding:15px;
+			cursor:pointer;
+			border:none;
+			border-radius:15px;
+			background-color:#231f20;
+			color:#db8557;
+			margin-right:10px;
+		}
+	
+	::placeholder {
+			color:#231f20 ;
+		 	opacity: 1; 
+		}
+
+	body{
+			font-family:verdana;
+			color:#231f20;
+			padding:0px;
+			margin:0px;
+			background:url(https://images.pexels.com/photos/1552252/pexels-photo-1552252.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+			background-size:1600px;
+		}
+</style>
